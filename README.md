@@ -1,3 +1,3 @@
 # Golden Sip website
 
-This website was created by Coder Dai.
+This website was created by Coder Dais.  
