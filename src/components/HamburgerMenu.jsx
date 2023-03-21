@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/logo.png";
 import "./hamburgerMenu.css";
 
 export const HamburgerMenu = () => {
@@ -10,11 +11,18 @@ export const HamburgerMenu = () => {
 
   return (
     <div className="hamburger-menu">
-      <button className="hamburger-icon" onClick={toggleMenu}>
-        <span className="hamburger-icon__bar"></span>
-        <span className="hamburger-icon__bar"></span>
-        <span className="hamburger-icon__bar"></span>
-      </button>
+      <div className="mobile-nav-bar">
+        <img
+          src={logo}
+          className="mobile-golden-sip-logo"
+          alt="Golden Sip's Logo"
+        ></img>
+        <button className="hamburger-icon" onClick={toggleMenu}>
+          <span className="hamburger-icon__bar"></span>
+          <span className="hamburger-icon__bar"></span>
+          <span className="hamburger-icon__bar"></span>
+        </button>
+      </div>
       {isOpen && (
         <ul className="menu">
           <li>
