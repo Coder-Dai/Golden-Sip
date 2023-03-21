@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import "./nav.css";
 
 export const Nav = () => {
   return (
-    <header>
+    <nav className="nav-bar">
       <img src={logo} alt="Golden Sip's Logo"></img>
       <ul>
         <li>Home</li>
@@ -11,6 +12,6 @@ export const Nav = () => {
         <li>Menu</li>
         <li>Contact</li>
       </ul>
-    </header>
+    </nav>
   );
 };

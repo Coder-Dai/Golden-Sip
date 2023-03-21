@@ -29,6 +29,12 @@ export const HamburgerMenu = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <a>Order now!</a>
+          </li>
+          <li>
+            <a>Socials!</a>
+          </li>
         </ul>
       )}
     </div>
