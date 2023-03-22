@@ -2,14 +2,16 @@ import "./App.css";
 import React from "react";
 import { Nav } from "./components/Nav";
 import { HamburgerMenu } from "./components/HamburgerMenu";
+import { About } from "./components/About";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <HamburgerMenu />
+      <About />
     </div>
   );
-}
+};
 
 export default App;
