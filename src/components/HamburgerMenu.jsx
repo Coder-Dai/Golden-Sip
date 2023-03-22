@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
+import facebookIcon from "../assets/facebook-icon.svg";
+import instaIcon from "../assets/instagram-icon.png";
 import "./hamburgerMenu.css";
 
 export const HamburgerMenu = () => {
@@ -37,11 +39,40 @@ export const HamburgerMenu = () => {
           <li onClick={toggleMenu}>
             <a href="#contact">Contact</a>
           </li>
-          <li onClick={toggleMenu}>
-            <a href="#order">Order now!</a>
+          <li>
+            <button className="order-button">
+              <a href="https://www.just-eat.co.uk/restaurants-golden-sip-ha2/menu">
+                Order now
+              </a>
+            </button>
           </li>
-          <li onClick={toggleMenu}>
-            <a href="#socials">Socials!</a>
+          <li>
+            <div className="socials-container">
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+              <a href="https://www.facebook.com/GoldenSipChoolho">
+                <img
+                  src={facebookIcon}
+                  className="facebook-icon"
+                  alt="facebook icon"
+                />
+              </a>
+              <a href="https://www.instagram.com/golden_sip/">
+                <img
+                  src={instaIcon}
+                  className="instagram-icon"
+                  alt="instagram icon"
+                />
+              </a>
+              <div />
+              <div />
+              <div />
+              <div />
+              <div />
+            </div>
           </li>
         </ul>
       )}
