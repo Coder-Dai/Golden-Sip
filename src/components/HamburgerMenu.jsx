@@ -25,23 +25,23 @@ export const HamburgerMenu = () => {
       </div>
       {isOpen && (
         <ul className="menu">
-          <li>
+          <li onClick={toggleMenu}>
             <a href="#home">Home</a>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <a href="#menu">Menu</a>
           </li>
-          <li>
+          <li onClick={toggleMenu}>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a>Order now!</a>
+          <li onClick={toggleMenu}>
+            <a href="#order">Order now!</a>
           </li>
-          <li>
-            <a>Socials!</a>
+          <li onClick={toggleMenu}>
+            <a href="#socials">Socials!</a>
           </li>
         </ul>
       )}
