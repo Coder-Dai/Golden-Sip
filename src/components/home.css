@@ -1,0 +1,4 @@
+.home-container {
+  height: calc(100vh - 70px);
+  background-color: #a2c892;
+}

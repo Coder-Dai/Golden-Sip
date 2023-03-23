@@ -1,6 +1,6 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
-import "./About.css";
+import "./about.css";
 
 export const About = ({ isMenuOpen }) => {
   const starters = [

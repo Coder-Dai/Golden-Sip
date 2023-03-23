@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import facebookIcon from "../assets/facebook-icon.svg";
 import instaIcon from "../assets/instagram-icon.png";
 import "./hamburgerMenu.css";
@@ -7,18 +6,6 @@ import "./hamburgerMenu.css";
 export const HamburgerMenu = ({ isMenuOpen, toggleMenu }) => {
   return (
     <div className="hamburger-menu">
-      <div className="mobile-nav-bar">
-        <img
-          src={logo}
-          className="mobile-golden-sip-logo"
-          alt="Golden Sip's Logo"
-        ></img>
-        <button className="hamburger-icon" onClick={toggleMenu}>
-          <span className="hamburger-icon__bar"></span>
-          <span className="hamburger-icon__bar"></span>
-          <span className="hamburger-icon__bar"></span>
-        </button>
-      </div>
       {isMenuOpen && (
         <ul className="menu">
           <li onClick={toggleMenu}>
