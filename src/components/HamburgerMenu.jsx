@@ -1,16 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../assets/logo.png";
 import facebookIcon from "../assets/facebook-icon.svg";
 import instaIcon from "../assets/instagram-icon.png";
 import "./hamburgerMenu.css";
 
-export const HamburgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  function toggleMenu() {
-    setIsOpen(!isOpen);
-  }
-
+export const HamburgerMenu = ({ isMenuOpen, toggleMenu }) => {
   return (
     <div className="hamburger-menu">
       <div className="mobile-nav-bar">
@@ -25,7 +19,7 @@ export const HamburgerMenu = () => {
           <span className="hamburger-icon__bar"></span>
         </button>
       </div>
-      {isOpen && (
+      {isMenuOpen && (
         <ul className="menu">
           <li onClick={toggleMenu}>
             <a href="#home">Home</a>

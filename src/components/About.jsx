@@ -2,7 +2,7 @@ import React from "react";
 import ImageSlider from "./ImageSlider";
 import "./About.css";
 
-export const About = () => {
+export const About = ({ isMenuOpen }) => {
   const starters = [
     {
       url: "https://media-cdn.tripadvisor.com/media/photo-s/1b/57/53/f7/sukuti-chatpate-buff.jpg",
@@ -39,12 +39,16 @@ export const About = () => {
   ];
 
   return (
-    <div className="aboutStyling">
-      <ImageSlider slides={starters} />
+    <div>
+      {!isMenuOpen && (
+        <div className="aboutStyling">
+          <ImageSlider slides={starters} />
 
-      <ImageSlider slides={mains} />
+          <ImageSlider slides={mains} />
 
-      <ImageSlider slides={drinks} />
+          <ImageSlider slides={drinks} />
+        </div>
+      )}
     </div>
   );
 };
