@@ -1,6 +1,6 @@
 import React from "react";
-import facebookIcon from "../assets/facebook-icon.svg";
-import instaIcon from "../assets/instagram-icon.png";
+import facebookIcon from "../../assets/facebook-icon.svg";
+import instaIcon from "../../assets/instagram-icon.png";
 import "./hamburgerMenu.css";
 
 export const HamburgerMenu = ({ isMenuOpen, toggleMenu }) => {

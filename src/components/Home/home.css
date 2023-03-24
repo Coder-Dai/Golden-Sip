@@ -1,0 +1,27 @@
+.home-container {
+  height: calc(100vh - 70px);
+  background-image: url("../../assets/Mobile/nepali-food.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: changeBackground 120s infinite ease-in-out;
+}
+
+/* The animation code */
+@keyframes changeBackground {
+  10% {
+    background-image: url("../../assets/Mobile/momo.jpg");
+  }
+  30% {
+    background-image: url("../../assets/Mobile/pork.jpeg");
+  }
+  50% {
+    background-image: url("../../assets/Mobile/snacks.jpg");
+  }
+  70% {
+    background-image: url("../../assets/Mobile/julebi.jpeg");
+  }
+  90% {
+    background-image: url("../../assets/Mobile/sekuwa.jpeg");
+  }
+}
