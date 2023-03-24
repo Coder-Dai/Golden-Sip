@@ -15,6 +15,20 @@
   padding-top: 30vh;
 }
 
+.order-button-home-page {
+  margin: 90px auto;
+  font-size: 1.6rem;
+  display: block;
+}
+
+.order-button-home-page > a {
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: #aeb66f;
+}
+
 /* The animation code */
 @keyframes changeBackground {
   10% {
