@@ -1,5 +1,26 @@
-.aboutStyling {
-  width: 18rem;
+.about-section-container {
+  width: 20rem;
   height: 12rem;
   margin: 2.5rem auto;
+}
+
+.about-footer-container {
+  background-color: #AEB66F;
+  border-radius: 10px;
+  color: #FAF9F6;
+  padding: 15px;
+}
+
+.picture-text {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  font-size: 1.9rem;
+}
+
+p {
+  font-size: 1.1rem;
 }
