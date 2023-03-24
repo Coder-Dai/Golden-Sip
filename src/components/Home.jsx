@@ -1,5 +1,4 @@
 import React from "react";
-import nepaliFood from "../assets/nepali-food.jpeg";
 import "./home.css";
 
 export const Home = ({ isMenuOpen }) => {
