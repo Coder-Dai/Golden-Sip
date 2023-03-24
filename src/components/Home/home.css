@@ -1,10 +1,18 @@
 .home-container {
   height: calc(100vh - 70px);
-  background-image: url("../../assets/Mobile/nepali-food.jpg");
+  background: rgba(0, 0, 0, 0.65) url("../../assets/Mobile/nepali-food.jpg");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   animation: changeBackground 120s infinite ease-in-out;
+}
+
+.title-text {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 25vh;
 }
 
 /* The animation code */

@@ -6,9 +6,7 @@ export const Home = ({ isMenuOpen }) => {
     <div>
       {!isMenuOpen && (
         <div className="home-container">
-          <h1>Welcome to GOLDEN SIP!</h1>
-          <h2>Authentic Nepalese and Indian Cuisine</h2>
-          <h3>Serving Himalayan cuisine since 19 fountain</h3>
+          <h1 className="title-text">Authentic Nepalese and Indian Cuisine</h1>
         </div>
       )}
     </div>
