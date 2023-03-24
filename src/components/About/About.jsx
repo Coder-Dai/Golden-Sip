@@ -41,12 +41,20 @@ export const About = ({ isMenuOpen }) => {
   return (
     <div>
       {!isMenuOpen && (
-        <div className="aboutStyling">
+        <div className="about-section-container">
           <ImageSlider slides={starters} />
+          <h2 className="picture-text">Mukh-Rasaune Starters</h2>
 
           <ImageSlider slides={mains} />
+          <h2 className="picture-text">Aghaune Mains</h2>
 
           <ImageSlider slides={drinks} />
+          <h2 className="picture-text">Mataune Drinks</h2>
+
+          <div className="about-footer-container">
+          <h1 className="about-footer-title">Serving Himalayan cuisine since 1990</h1>
+          <p className="about-footer-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
       )}
     </div>
