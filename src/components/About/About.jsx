@@ -54,7 +54,9 @@ export const About = ({ isMenuOpen }) => {
           <div className="about-footer-container">
           <h1 className="about-footer-title">Serving Himalayan cuisine since 1990</h1>
           <p className="about-footer-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <br/>
           </div>
+          <br/>
         </div>
       )}
     </div>
