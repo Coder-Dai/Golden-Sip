@@ -44,4 +44,5 @@ const Menu = ({ isMenuOpen }) => {
   );
 };
 
-export default Menu;
+
+export default Menu

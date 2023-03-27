@@ -5,6 +5,7 @@ import { HamburgerMenu } from "./components/HamburgerMenu/HamburgerMenu";
 import { About } from "./components/About/About";
 import { HamburgerNav } from "./components/HamburgerMenu/HamburgerNav";
 import Menu from "./components/Menu/Menu";
+import { Contact } from "./components/Contact/Contact"
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,6 +22,7 @@ const App = () => {
       <Home isMenuOpen={isMenuOpen} />
       <About isMenuOpen={isMenuOpen} />
       <Menu isMenuOpen={isMenuOpen} />
+      <Contact isMenuOpen={isMenuOpen}/>
     </div>
   );
 };
