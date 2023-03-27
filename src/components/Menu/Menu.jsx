@@ -24,18 +24,15 @@ const Menu = () => {
           </button>
 
         {isOpen && (
-          <div className="menu-list">
+          <div className="menu-title">
             {vegS.map((item, i) => (
-              <div key={i}>
+              <div key={i} className='menu-list'>
                 <p className="menu-name">{item.name}</p>
                 <p className="menu-desc">{item.desc}</p>
               </div>  
             ))}
           </div>  
         )}
-        </div>
-        <div className="menu-content">
-          <button>Veg-Starter</button>
         </div>
       </div>
     </section>
