@@ -39,14 +39,15 @@
   justify-content: space-between;
   font-size: 1.6rem;
   background-color: #fff;
-  z-index: 9;
+  /* z-index: 9; */
 }
 
 .menu-title {
   position: absolute;
   /* color: black; */
   /* margin-top: 3.7rem; */
-  padding-top: 3.3rem;
+  top: 3.7rem;
+  /* padding-top: 3.3rem; */
   border: 1px solid rgb(199, 197, 197);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
