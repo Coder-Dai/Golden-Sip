@@ -20,7 +20,7 @@ const App = () => {
       <HamburgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Home isMenuOpen={isMenuOpen} />
       <About isMenuOpen={isMenuOpen} />
-      <Menu/>
+      <Menu isMenuOpen={isMenuOpen} />
     </div>
   );
 };
