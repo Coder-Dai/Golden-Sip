@@ -1,0 +1,27 @@
+#menu{
+    background-color: #eeeeee;
+    width: 100%;
+    min-height: 70rem;
+    padding-top: 2rem;
+}
+
+#menu h1 {
+    text-align: center;
+    /* margin-top: 20rem; */
+}
+
+.menu-container {
+    width: 90%;
+    min-height: 65rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.menu-content {
+    border-radius: 0.3rem;
+    border: 1px solid red;
+
+}
