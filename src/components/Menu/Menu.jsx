@@ -1,6 +1,6 @@
 import React from "react";
 import "./menu.css";
-import VegStarter from "./VegStarter";
+import VegStarter from "./MenuList";
 import vegS from './veg-s.json'
 import nonVegS from './nonveg-s.json'
 
