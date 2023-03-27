@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Steam Momo",
+    "desc": "Nepali style dumplings. Minced meat with garnish covered in a bun. Served with special Nepali tomato achaar (sauce)."
+  },
+  {
+    "name": "Jhol Momo",
+    "desc": "Nepali style dumplings served dipped in spicy soup"
+  },
+  {
+    "name": "Chilli Momo",
+    "desc": "Nepali style dumplings covered in spicy chilli sauce"
+  },
+  {
+    "name": "Kothay Momo",
+    "desc": "Nepali style dumplings lightly fried in a pan"
+  },
+  {
+    "name": "Sadeko Momo",
+    "desc": "Nepali style dumplings mixed with onions, chillies, cucumber, tomatoes garnished with corriander and lemon "
+  },
+  {
+    "name": "Chowmein",
+    "desc": "Fried noodles served with meat and vegetables"
+  },
+  {
+    "name": "Thukpa",
+    "desc": "Noodles served with a bowl of warm soup."
+  }
+]
