@@ -39,7 +39,7 @@ export const About = ({ isMenuOpen }) => {
   ];
 
   return (
-    <div>
+    <section id='about'>
       {!isMenuOpen && (
         <div className="about-section-container">
           <ImageSlider slides={starters} />
@@ -59,6 +59,6 @@ export const About = ({ isMenuOpen }) => {
           <br/>
         </div>
       )}
-    </div>
+    </section>
   );
 };

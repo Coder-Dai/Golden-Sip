@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Butter Chicken",
+    "desc": "Pulled tandoori chicken cooked in a silk smooth sauce of tomatoes, spices, garnished with cream and butter."
+  },
+  {
+    "name": "Lamb Chef Special",
+    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy."
+  },
+  {
+    "name": "Chicken Chef Special",
+    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy."
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices."
+  },
+  {
+    "name": "Chicken Karahi",
+    "desc": "Tender chicken cooked with capsicum and onions prepared in a Karahi (wok)."
+  },
+  {
+    "name": "Methi Chicken",
+    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices."
+  },
+  {
+    "name": "Korma Chicken or Lamb",
+    "desc": "Mildly spiced dish with a thick sauce made up of Chicken/Lamb pieces braised in cream, coconut milk and spices."
+  },
+  {
+    "name": "Kenyan Curry Chicken or Lamb",
+    "desc": "Diced on the bone chicken / lamb cooked in a special Kenyan sauce."
+  },
+  {
+    "name": "Lamb Rojan Josh",
+    "desc": "Diced lamb cooked in tomato, onion gravy and spices."
+  },
+  {
+    "name": "Lamb Keema Curry",
+    "desc": "Minced lamb cooked in onion, tomato sauce with spices."
+  },
+  { "name": "Lamb Bhuna", "desc": "Tender lamb cooked in thick spiced gravy." },
+  {
+    "name": "Methi Gosht",
+    "desc": "Tender lamb with fenugreek leaves and spices."
+  }
+]

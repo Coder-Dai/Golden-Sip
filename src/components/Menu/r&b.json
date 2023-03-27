@@ -1,0 +1,40 @@
+[
+  { "name": "Plain Rice", "desc": "Plain white boiled Basmati rice." },
+  {
+    "name": "Pilau Rice",
+    "desc": "A rice dish cooked in stock or broth, adding spices and vegetables."
+  },
+  {
+    "name": "Jeera Rice",
+    "desc": "A rice dish consisting of rice and cumin seeds."
+  },
+  {
+    "name": "Mushroom Pilau Rice",
+    "desc": "A rice dish cooked in stock or broth, adding spices and vegetables and mushroom."
+  },
+  {
+    "name": "Chicken Fried Rice",
+    "desc": "A rice dish fried with chicken, egg, onion and Nepalese spices."
+  },
+  { "name": "Egg Fried Rice", "desc": "Rice fried with egg." },
+  {
+    "name": "Vegetable Fried Rice",
+    "desc": "A rice dish fried with mixed vegetables, onion and Nepalese spices."
+  },
+  {
+    "name": "King Prawn Biryani",
+    "desc": "Biryani dish made from layering rice with a mixture of yoghurt and spice marinated King Prawn."
+  },
+  {
+    "name": "Vegetable Biryani",
+    "desc": "Biryani dish made from layering rice with a mixture of yoghurt and spice marinated Vegetables."
+  },
+  {
+    "name": "Chicken Biryani",
+    "desc": "Biryani dish made from layering rice with a mixture of yoghurt and spice marinated Chicken."
+  },
+  {
+    "name": "Lamb Biryani",
+    "desc": "Biryani dish made from layering rice with a mixture of yoghurt and spice marinated Lamb."
+  }
+]

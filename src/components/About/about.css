@@ -1,14 +1,18 @@
+#about {
+  height: 68rem;
+}
+
 .about-section-container {
   width: 20rem;
   height: 12rem;
   margin: 2.5rem auto;
-  background-color: #FAF9F6;
+  background-color: #faf9f6;
 }
 
 .about-footer-container {
-  background-color: #AEB66F;
+  background-color: #aeb66f;
   border-radius: 10px;
-  color: #FAF9F6;
+  color: #faf9f6;
   padding: 15px;
 }
 

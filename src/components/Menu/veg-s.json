@@ -1,0 +1,52 @@
+[
+  { "name": "French Fried", "desc": "Thin and cripsy potatoes chips." },
+  {
+    "name": "Panipuri",
+    "desc": "(Gol Gappe) Puffed wheat crips filled with marinated potatoes and chickpeas served with cumin and tamarind water (8pcs)."
+  },
+  {
+    "name": "Veg Samosa",
+    "desc": "Maida flour shell stuffed with a mixture of mashed boiled potatoes, onions and green peas. Comes 3 pieces in one portion."
+  },
+  {
+    "name": "Chips Chilli",
+    "desc": "Fries cooked in our special chilli sauce, onion and garlic."
+  },
+  { "name": "Mogo Plain", "desc": "Lightly spiced deeep fried cassava." },
+  {
+    "name": "Masala Mogo",
+    "desc": "Deep fried spiced cassava with chosen condiment."
+  },
+  {
+    "name": "Crispy Bhajia",
+    "desc": "Thin sliced potatoes, lightly battered with spices. Deep fried and served with chutney."
+  },
+  {
+    "name": "Chilli Garlic Mogo",
+    "desc": "Deep fried spiced cassava cooked with onion garlic and chilli sauce."
+  },
+  {
+    "name": "Samosa Chat",
+    "desc": "Veg samosa topped with chopped potatoes, fresh onion, chickpeas with yoghurt and tamarind sauce."
+  },
+  {
+    "name": "Potato \"65\"",
+    "desc": "Battered baby potato cooked with our special 65 sauce mixed with yoghurt."
+  },
+  {
+    "name": "Chilli Garlic Mushroom",
+    "desc": "Lightly battered mushroom deep fried and cooked with fresh peppers and onions."
+  },
+  {
+    "name": "Veg Manchurian",
+    "desc": "Deep fried spiced mixed vegetable balls with special sauce."
+  },
+  {
+    "name": "Chilli Paneer",
+    "desc": "Cottage cheese cubes deep fried and tossed in wok with GS Chilli sauce, peppers and onions."
+  },
+  {
+    "name": "Paneer Tikka",
+    "desc": "Chunks of paneer marinated in spices and grilled in a tandoor. It's a vegetarian alternative to chicken tikka."
+  }
+]

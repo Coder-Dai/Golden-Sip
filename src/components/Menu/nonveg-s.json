@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Meat Samosa",
+    "desc": "Crisp deep fried savory pastry pyraminds stuffed with spiced lamb."
+  },
+  {
+    "name": "Tandoori Chicken",
+    "desc": "Baby chicken marinated in yoghurt & special spices & grilled in clay."
+  },
+  {
+    "name": "Sheekh Kebab",
+    "desc": "Lamb mince blended with ginger, garlic, onion, capsicum and spices"
+  },
+  {
+    "name": "Chicken Tikka",
+    "desc": "Diced chicken breast marinated with yoghurt, ginger, garlic & hot Indian Spices, then cooked in a clay oven."
+  },
+  {
+    "name": "Chicken Lolypop",
+    "desc": "Popular Indian Chinese cuisine. Chicken lollipop is essentially a Frenched chicken winglet, where in the meat is cut loose from the bone end and pushed down creating a lollipop appearance."
+  },
+  {
+    "name": "Chatpata Pop",
+    "desc": "Chicken breast marinated in spices and cut into small pieces."
+  },
+  {
+    "name": "Chicken Chilli",
+    "desc": "Marinated battered chicken chunks fried & cooked with peppers & chilli."
+  },
+  {
+    "name": "Tandoori Chicken Wings",
+    "desc": "Chicken wings marinated with spices & yoghurt and raosted in clay oven. (8pcs in a portion)"
+  },
+  {
+    "name": "Lamb Chops",
+    "desc": "Marinated in our secret sauce, grilled in day-oven."
+  },
+  {
+    "name": "Juicy Lamb Chilli",
+    "desc": "Lamb cubes marinated with secret sauce. Cooked in clay oven and rossed in the wok with peppers & onions. (Tender lamb with capsicum, onion and chilli sauce)"
+  },
+  {
+    "name": "Mixed Grill",
+    "desc": "Chicken Tikka, Sheekh Kebab, Spring Lamb Chops and Chicken Wings. Combination of our succulent grills, 3pc each."
+  }
+]
