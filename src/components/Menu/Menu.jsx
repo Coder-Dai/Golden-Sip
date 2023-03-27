@@ -1,6 +1,8 @@
 import React from "react";
 import "./menu.css";
-
+import {AiOutlineCaretUp} from 'react-icons/ai'
+import {AiOutlineCaretDown} from 'react-icons/ai'
+import vegS from './veg-s.json'
 
 const Menu = () => {
   return (
@@ -8,7 +10,9 @@ const Menu = () => {
       <h1>Menu</h1>
       <div className="menu-container">
         <div className="menu-content">
-          <button>Veg-Starter</button>
+          <button>
+            Veg-Starter
+          </button>
         </div>
         <div className="menu-content">
           <button>Veg-Starter</button>
