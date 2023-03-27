@@ -13,7 +13,8 @@ const Menu = () => {
       <div className="menu-container">
         <div className="menu-content">
           <button
-          onClick={() => setIsOpen((prev) => !prev)}>
+          onClick={() => setIsOpen((prev) => !prev)}
+          className='menu-btn'>
             Veg-Starter
             {!isOpen ? (
               <AiOutlineCaretDown />)
@@ -21,6 +22,17 @@ const Menu = () => {
               (<AiOutlineCaretUp />
             )}
           </button>
+
+        {isOpen && (
+          <div className="menu-list">
+            {vegS.map((item, i) => (
+              <div key={i}>
+                <p className="menu-name">{item.name}</p>
+                <p className="menu-desc">{item.desc}</p>
+              </div>  
+            ))}
+          </div>  
+        )}
         </div>
         <div className="menu-content">
           <button>Veg-Starter</button>
