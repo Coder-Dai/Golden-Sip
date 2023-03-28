@@ -1,6 +1,8 @@
 import React from "react";
 import "./contact.css";
 
+import { FaInstagram, FaFacebook } from "react-icons/fa";
+
 export const Contact = ({ isMenuOpen }) => {
   return (
     <div>
@@ -17,30 +19,39 @@ export const Contact = ({ isMenuOpen }) => {
           </div>
 
           <div className="contact-footer-container">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.5559995292365!2d-0.36373928368483305!3d51.55804011481946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761327130dc68b%3A0x449482f0cae4b2db!2sGolden%20Sip!5e0!3m2!1sen!2suk!4v1680015091086!5m2!1sen!2suk"
-              width="350"
-              height="250"
-              style={{border: "0"}}
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="gs-mini-map"
-            ></iframe>
+            <div className="mini-map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.5559995292365!2d-0.36373928368483305!3d51.55804011481946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761327130dc68b%3A0x449482f0cae4b2db!2sGolden%20Sip!5e0!3m2!1sen!2suk!4v1680015091086!5m2!1sen!2suk"
+                width="250"
+                height="200"
+                style={{ border: "0" }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="gs-mini-map"
+              ></iframe>
+            </div>
 
-            <h2>Address</h2>
-            <h4>123 Fake Street</h4>
-            <h4>UB5 123</h4>
-            <h4>Contact: 0123456789</h4>
+            <div className="details-container">
+              <h2 className="details-title-address">Address</h2>
+              <p>123 Fake Street</p>
+              <p>UB5 123</p>
+              <p>Contact: 0123456789</p>
 
-            <h2>Opening Times</h2>
-            <h4>Mon-Sun: 11am-11pm</h4>
+              <h2 className="details-title">Opening Times</h2>
+              <p>Mon-Sun: 11am-11pm</p>
 
-            <h2>We deliver to:</h2>
-            <h4>UB5, UB6, UB7, UB8</h4>
+              <h2 className="details-title">We deliver to:</h2>
+              <p>UB5, UB6, UB7, UB8</p>
 
-            <h2>Follow us on:</h2>
-
+              <h2 className="details-title">Follow us on:</h2>
+              <a href="https://www.instagram.com/golden_sip/" target="_blank">
+                <FaInstagram />
+              </a>
+              <a  href="https://www.facebook.com/GoldenSipChoolho" target="_blank">
+                <FaFacebook />
+              </a>
+            </div>
           </div>
         </div>
       )}
