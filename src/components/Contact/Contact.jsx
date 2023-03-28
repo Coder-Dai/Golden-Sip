@@ -44,10 +44,10 @@ export const Contact = ({ isMenuOpen }) => {
               <p>UB5, UB6, UB7, UB8</p>
 
               <h2 className="details-title">Follow us on:</h2>
-              <a href="https://www.instagram.com/golden_sip/" target="_blank">
+              <a href="https://www.instagram.com/golden_sip/" target="_blank" rel='noreferrer'>
                 <FaInstagram />
               </a>
-              <a  href="https://www.facebook.com/GoldenSipChoolho" target="_blank">
+              <a  href="https://www.facebook.com/GoldenSipChoolho" target="_blank" rel='noreferrer'>
                 <FaFacebook />
               </a>
             </div>
