@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./menu.css";
 import MenuList from "./MenuList";
 import vegS from "./veg-s.json";
@@ -15,28 +15,67 @@ import nepaleseSnacks from "./nepalese-snacks.json";
 import sekuwaAndChhoila from "./sekuwa-&-chhoila.json";
 import nepaleseNonVeg from "./nepalese-non-veg.json";
 import setMeal from "./set-meal.json";
+import banqVegS from "./Banquet/veg-s.json";
+import banqNonVegS from "./Banquet/nonveg-s.json";
+import banqVegMains from "./Banquet/veg-m.json";
+import banqNonVegMains from "./Banquet/nonveg-m.json";
+import banqRice from "./Banquet/rice.json";
+import banqBread from "./Banquet/bread.json";
+import banqSalad from "./Banquet/salad.json";
+import banqDessert from "./Banquet/dessert.json";
 
 const Menu = ({ isMenuOpen }) => {
+  const [isNormalMenuOpen, setIsNormalMenuOpen] = useState(true);
+
   return (
     <>
       {!isMenuOpen && (
         <section id="menu">
-          <h1>Menu</h1>
+          {isNormalMenuOpen ? <h1>Menu</h1> : <h1>Banquet Menu</h1>}
+          <div className="menu-toggle-btn-styling-container">
+            <div></div>
+            <button
+              className="menu-toggle-btn"
+              onClick={() => setIsNormalMenuOpen(!isNormalMenuOpen)}
+            >
+              {isNormalMenuOpen ? <p>Banquet</p> : <p>Menu</p>}
+            </button>
+          </div>
           <div className="menu-container">
-            <MenuList label="Vegetarian Starter" food={vegS} />
-            <MenuList label="Non-Veg Starter" food={nonVegS} />
-            <MenuList label="Sea Food Starter" food={seaFoodS} />
-            <MenuList label="Vegetarian Mains" food={vegMains} />
-            <MenuList label="Non-Veg Mains" food={nonVegMains} />
-            <MenuList label="Sea Food Mains" food={seaFoodMains} />
-            <MenuList label="Bread" food={bread} />
-            <MenuList label="Rice & Biryani" food={rAndB} />
-            <MenuList label="Momo & Chowmein" food={momoAndChowmein} />
-            <MenuList label="Nepalese Veg. Dish" food={nepaleseVegDish} />
-            <MenuList label="Nepalese Snacks" food={nepaleseSnacks} />
-            <MenuList label="Sekuwa & Chhoila" food={sekuwaAndChhoila} />
-            <MenuList label="Nepalese Non-Veg" food={nepaleseNonVeg} />
-            <MenuList label="Set Meal" food={setMeal} />
+            {isNormalMenuOpen && (
+              <div className="menu-list-container">
+                <MenuList label="Vegetarian Starters" food={vegS} />
+                <MenuList label="Non-Veg Starters" food={nonVegS} />
+                <MenuList label="Sea Food Starters" food={seaFoodS} />
+                <MenuList label="Vegetarian Mains" food={vegMains} />
+                <MenuList label="Non-Veg Mains" food={nonVegMains} />
+                <MenuList label="Sea Food Mains" food={seaFoodMains} />
+                <MenuList label="Bread" food={bread} />
+                <MenuList label="Rice & Biryani" food={rAndB} />
+                <MenuList label="Momo & Chowmein" food={momoAndChowmein} />
+                <MenuList label="Nepalese Veg. Dish" food={nepaleseVegDish} />
+                <MenuList label="Nepalese Snacks" food={nepaleseSnacks} />
+                <MenuList label="Sekuwa & Chhoila" food={sekuwaAndChhoila} />
+                <MenuList label="Nepalese Non-Veg" food={nepaleseNonVeg} />
+                <MenuList label="Set Meal" food={setMeal} />
+              </div>
+            )}
+            {!isNormalMenuOpen && (
+              <div className="menu-list-container">
+                <MenuList
+                  label="Vegetarian Starters"
+                  info="Pick 2 items from the menu below*"
+                  food={banqVegS}
+                />
+                <MenuList label="Nov-Veg Starters" food={banqNonVegS} />
+                <MenuList label="Vegetarian Mains" food={banqVegMains} />
+                <MenuList label="Non-Veg Mains" food={banqNonVegMains} />
+                <MenuList label="Rice" food={banqRice} />
+                <MenuList label="Bread" food={banqBread} />
+                <MenuList label="Salad" food={banqSalad} />
+                <MenuList label="Dessert" food={banqDessert} />
+              </div>
+            )}
           </div>
         </section>
       )}
@@ -44,5 +83,4 @@ const Menu = ({ isMenuOpen }) => {
   );
 };
 
-
-export default Menu
+export default Menu;

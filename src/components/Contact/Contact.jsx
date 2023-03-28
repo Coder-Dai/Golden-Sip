@@ -1,6 +1,6 @@
 import React from "react";
-
 import { FaInstagram, FaFacebook } from "react-icons/fa";
+import "./contact.css"
 
 export const Contact = ({ isMenuOpen }) => {
   return (
