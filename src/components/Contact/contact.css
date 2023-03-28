@@ -52,4 +52,15 @@
 
 a {
   color: #ffffff;
+  padding: 0.3rem;
+}
+
+.react-icon-ig {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.react-icon-fb {
+  height: 1.4rem;
+  width: 1.4rem;
 }

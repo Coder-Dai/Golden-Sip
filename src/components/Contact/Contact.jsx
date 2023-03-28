@@ -33,9 +33,9 @@ export const Contact = ({ isMenuOpen }) => {
 
             <div className="details-container">
               <h2 className="details-title-address">Address</h2>
-              <p>123 Fake Street</p>
-              <p>UB5 123</p>
-              <p>Contact: 0123456789</p>
+              <p>496-500 Northolt Rd, Harrow</p>
+              <p>HA2 8HA</p>
+              <p>Contact: 0208 4266 300</p>
 
               <h2 className="details-title">Opening Times</h2>
               <p>Mon-Sun: 11am-11pm</p>
@@ -45,10 +45,10 @@ export const Contact = ({ isMenuOpen }) => {
 
               <h2 className="details-title">Follow us on:</h2>
               <a href="https://www.instagram.com/golden_sip/" target="_blank" rel='noreferrer'>
-                <FaInstagram />
+                <FaInstagram className='react-icon-ig'/>
               </a>
               <a  href="https://www.facebook.com/GoldenSipChoolho" target="_blank" rel='noreferrer'>
-                <FaFacebook />
+                <FaFacebook className='react-icon-fb' />
               </a>
             </div>
           </div>
