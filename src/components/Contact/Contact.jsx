@@ -6,7 +6,6 @@ export const Contact = ({ isMenuOpen }) => {
     <div>
       {!isMenuOpen && (
         <div className="contact-container">
-
           <div className="takeout-card">
             <h1>Take out?</h1>
             <h3>Order now from JustEat.</h3>
@@ -18,6 +17,17 @@ export const Contact = ({ isMenuOpen }) => {
           </div>
 
           <div className="contact-footer-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.5559995292365!2d-0.36373928368483305!3d51.55804011481946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761327130dc68b%3A0x449482f0cae4b2db!2sGolden%20Sip!5e0!3m2!1sen!2suk!4v1680015091086!5m2!1sen!2suk"
+              width="350"
+              height="250"
+              style={{border: "0"}}
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="gs-mini-map"
+            ></iframe>
+
             <h2>Address</h2>
             <h4>123 Fake Street</h4>
             <h4>UB5 123</h4>
