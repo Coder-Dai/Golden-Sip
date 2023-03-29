@@ -4,7 +4,7 @@ import "./contact.css"
 
 export const Contact = ({ isMenuOpen }) => {
   return (
-    <div>
+    <section id='contact'>
       {!isMenuOpen && (
         <div className="contact-container">
           <div className="takeout-card" >
@@ -56,6 +56,6 @@ export const Contact = ({ isMenuOpen }) => {
           </div>
         </div>
       )}
-    </div>
+    </section>
   );
 };

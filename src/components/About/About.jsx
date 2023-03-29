@@ -39,7 +39,7 @@ export const About = ({ isMenuOpen }) => {
   ];
 
   return (
-    <section id='about'>
+    <section id={isMenuOpen ? "about-hamburger-menu-open" : "about"}>
       {!isMenuOpen && (
         <div className="about-section-container">
           <ImageSlider slides={starters} />
@@ -52,11 +52,16 @@ export const About = ({ isMenuOpen }) => {
           <h2 className="picture-text">Mataune Drinks</h2>
 
           <div className="about-footer-container">
-          <h1 className="about-footer-title">Serving Himalayan cuisine since 1990</h1>
-          <p className="about-footer-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <br/>
+            <h1 className="about-footer-title">
+              Serving Himalayan cuisine since 1990
+            </h1>
+            <p className="about-footer-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <br />
           </div>
-          <br/>
+          <br />
         </div>
       )}
     </section>

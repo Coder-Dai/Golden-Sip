@@ -24,3 +24,9 @@
   margin-bottom: 5px;
   background-color: black;
 }
+
+@media (min-width: 501px) {
+  .mobile-nav-bar {
+    display: none;
+  }
+}
