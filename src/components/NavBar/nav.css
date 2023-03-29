@@ -1,3 +1,36 @@
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktop-golden-sip-logo {
+  width: 267px;
+  height: 90px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  padding-right: 1.5rem;
+}
+
+.nav-lists {
+  font-size: 1.4rem;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-lists:hover {
+  color: #aeb66f;
+}
+
 @media (max-width: 500px) {
   .nav-bar {
     display: none;
