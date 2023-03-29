@@ -7,8 +7,10 @@ export const Contact = ({ isMenuOpen }) => {
     <section id='contact'>
       {!isMenuOpen && (
         <div className="contact-container">
-          <div className="takeout-card">
+          <div className="takeout-card" >
+              
             <h1>Take out?</h1>
+
             <h3>Order now from JustEat.</h3>
           </div>
 
