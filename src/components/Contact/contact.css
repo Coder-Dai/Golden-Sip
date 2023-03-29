@@ -12,7 +12,8 @@
   width: 300px;
   height: 200px;
   color: white;
-  background-image: url("http://soft2share.com/wp-content/uploads/2019/11/261848906925165-1024x769.jpg");
+  background: rgba(0, 0, 0, 0.60) url("http://soft2share.com/wp-content/uploads/2019/11/261848906925165-1024x769.jpg");
+  background-blend-mode: darken;
   background-size: cover;
   padding: 50px;
   margin: 30px auto;
@@ -24,7 +25,8 @@
   width: 300px;
   height: 200px;
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background: rgba(0, 0, 0, 0.50) url("https://images.unsplash.com/photo-1599458252573-56ae36120de1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-blend-mode: darken;
   background-size: cover;
   padding: 40px;
   margin: 30px auto;
