@@ -40,9 +40,3 @@
 .instagram-icon {
   width: 32px;
 }
-
-@media (min-width: 501px) {
-  .hamburger-menu {
-    display: none;
-  }
-}
