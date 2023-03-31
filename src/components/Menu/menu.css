@@ -12,7 +12,6 @@
 .menu-toggle-btn-styling-container {
   display: flex;
   justify-content: flex-end;
-  /* width: 80%; */
 }
 
 .menu-toggle-btn {
@@ -42,5 +41,9 @@
   .menu-container {
     margin: auto;
     width: 60%;
+  }
+
+  #menu h1 {
+    font-size: 3rem;
   }
 }
