@@ -31,7 +31,6 @@ const leftArrowStyles = {
 };
 
 const sliderStyles = {
-  position: "relative",
   height: "100%",
   paddingBottom: "30px",
 };
