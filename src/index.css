@@ -9,3 +9,13 @@
   box-sizing: border-box;
   font-family: "Jura", sans-serif;
 }
+
+section {
+  scroll-margin-top: 75px;
+}
+
+@media (min-width: 950px) {
+  section {
+    scroll-margin-top: 110px;
+  }
+}
