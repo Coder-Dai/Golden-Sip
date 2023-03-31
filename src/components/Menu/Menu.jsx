@@ -32,16 +32,17 @@ const Menu = ({ isMenuOpen }) => {
       {!isMenuOpen && (
         <section id="menu">
           {isNormalMenuOpen ? <h1>Menu</h1> : <h1>Banquet Menu</h1>}
-          <div className="menu-toggle-btn-styling-container">
-            <div></div>
-            <button
-              className="menu-toggle-btn"
-              onClick={() => setIsNormalMenuOpen(!isNormalMenuOpen)}
-            >
-              {isNormalMenuOpen ? <p>Banquet</p> : <p>Menu</p>}
-            </button>
-          </div>
+
           <div className="menu-container">
+            <div className="menu-toggle-btn-styling-container">
+              <div></div>
+              <button
+                className="menu-toggle-btn"
+                onClick={() => setIsNormalMenuOpen(!isNormalMenuOpen)}
+              >
+                {isNormalMenuOpen ? <p>Banquet</p> : <p>Menu</p>}
+              </button>
+            </div>
             {isNormalMenuOpen && (
               <div className="menu-list-container">
                 <MenuList label="Vegetarian Starters" food={vegS} />
