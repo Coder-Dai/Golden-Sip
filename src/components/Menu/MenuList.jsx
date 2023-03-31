@@ -3,7 +3,7 @@ import { AiOutlineCaretUp } from "react-icons/ai";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import "./menuList.css";
 
-const MenuList = ({ label, food }) => {
+const MenuList = ({ label, food, info }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,6 +17,7 @@ const MenuList = ({ label, food }) => {
         <div className="menu-list-container">
           <div className="menu-title"></div>
           <div className="menu-list">
+          {info ? <p>{info}</p> : null}
             {food.map((item, i) => (
               <div key={i} className="menu-item">
                 <p className="menu-name">{item.name}</p>
