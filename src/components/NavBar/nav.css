@@ -32,7 +32,7 @@
   color: #aeb66f;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 949px) {
   .nav-bar {
     display: none;
   }
