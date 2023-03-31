@@ -74,10 +74,10 @@ const Menu = ({ isMenuOpen }) => {
                 />
                 <MenuList label="Vegetarian Mains" food={banqVegMains} info="Pick 2 items from the menu below*"/>
                 <MenuList label="Non-Veg Mains" food={banqNonVegMains} info="Pick 2 items from the menu below*"/>
-                <MenuList label="Rice" food={banqRice} info="Pick 2 items from the menu below*"/>
-                <MenuList label="Bread" food={banqBread} info="Pick 2 items from the menu below*"/>
-                <MenuList label="Salad" food={banqSalad} info="Pick 2 items from the menu below*"/>
-                <MenuList label="Dessert" food={banqDessert} info="Pick 2 items from the menu below*"/>
+                <MenuList label="Rice" food={banqRice} info="Pick 1 items from the menu below*"/>
+                <MenuList label="Bread" food={banqBread} info="Pick 1 items from the menu below*"/>
+                <MenuList label="Salad" food={banqSalad} />
+                <MenuList label="Dessert" food={banqDessert} info="Pick 1 items from the menu below*"/>
               </div>
             )}
           </div>
