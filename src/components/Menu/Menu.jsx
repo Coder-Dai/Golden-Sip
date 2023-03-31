@@ -35,7 +35,6 @@ const Menu = ({ isMenuOpen }) => {
 
           <div className="menu-container">
             <div className="menu-toggle-btn-styling-container">
-              <div></div>
               <button
                 className="menu-toggle-btn"
                 onClick={() => setIsNormalMenuOpen(!isNormalMenuOpen)}
