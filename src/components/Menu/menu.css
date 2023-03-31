@@ -11,7 +11,8 @@
 
 .menu-toggle-btn-styling-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  /* width: 80%; */
 }
 
 .menu-toggle-btn {
@@ -34,4 +35,12 @@
   flex-direction: column;
   margin: 0 auto;
   padding-bottom: 1.5rem;
+}
+
+
+@media (min-width: 950px) {
+  .menu-container {
+    margin: auto;
+    width: 60%;
+  }
 }
