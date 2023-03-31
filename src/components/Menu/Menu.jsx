@@ -67,7 +67,7 @@ const Menu = ({ isMenuOpen }) => {
                   info="Pick 2 items from the menu below*"
                   food={banqVegS}
                 />
-                <MenuList label="Nov-Veg Starters" food={banqNonVegS} />
+                <MenuList label="Non-Veg Starters" food={banqNonVegS} />
                 <MenuList label="Vegetarian Mains" food={banqVegMains} />
                 <MenuList label="Non-Veg Mains" food={banqNonVegMains} />
                 <MenuList label="Rice" food={banqRice} />
