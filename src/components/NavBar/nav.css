@@ -22,6 +22,7 @@
 
 .nav-lists {
   font-size: 1.4rem;
+  font-weight: 700; 
   transition: all ease 0.2s;
   cursor: pointer;
   color: #000;
