@@ -8,25 +8,23 @@ const slideStyles = {
   backgroundPosition: "center",
 };
 
+const sliderButtons = {
+  display: "flex",
+  justifyContent: "space-between",
+  height: "95%",
+  alignItems: "center",
+  margin: "0px 0.5rem",
+};
+
 const rightArrowStyles = {
-  position: "absolute",
-  top: "45%",
-  transform: "translate(0, -50%)",
-  right: "5px",
   fontSize: "35px",
   color: "#fff",
-  zIndex: 1,
   cursor: "pointer",
 };
 
 const leftArrowStyles = {
-  position: "absolute",
-  top: "45%",
-  transform: "translate(0, -50%)",
-  left: "5px",
   fontSize: "35px",
   color: "#fff",
-  zIndex: 1,
   cursor: "pointer",
 };
 
@@ -68,15 +66,16 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <div style={sliderStyles}>
-      <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
-          ❰
-        </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
-          ❱
+      <div style={slideStylesWidthBackground}>
+        <div style={sliderButtons}>
+          <div onClick={goToPrevious} style={leftArrowStyles}>
+            ❰
+          </div>
+          <div onClick={goToNext} style={rightArrowStyles}>
+            ❱
+          </div>
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div
