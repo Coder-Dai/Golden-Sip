@@ -1,12 +1,9 @@
 #about {
-  height: 72rem;
+  height: 74rem;
 }
 
 .about-section-container {
-  width: 20rem;
-  height: 12rem;
-  margin: 2.5rem auto;
-  background-color: #faf9f6;
+  margin: 2.5rem;
 }
 
 .about-footer-container {
@@ -28,4 +25,23 @@ h1 {
 
 p {
   font-size: 1.1rem;
+}
+
+@media (min-width: 950px) {
+  #about {
+    height: 35rem;
+  }
+
+  .sliders-container {
+    margin: auto;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-footer-container {
+    margin-top: 5rem;
+    width: 800px;
+    margin: 5rem auto;
+  }
 }

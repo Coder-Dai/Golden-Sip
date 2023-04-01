@@ -42,14 +42,22 @@ export const About = ({ isMenuOpen }) => {
     <section id={isMenuOpen ? "about-hamburger-menu-open" : "about"}>
       {!isMenuOpen && (
         <div className="about-section-container">
-          <ImageSlider slides={starters} />
-          <h2 className="picture-text">Mukh-Rasaune Starters</h2>
+          <div className="sliders-container">
+            <div className="slider-container">
+              <ImageSlider slides={starters} />
+              <h2 className="picture-text">Dammi Starters</h2>
+            </div>
 
-          <ImageSlider slides={mains} />
-          <h2 className="picture-text">Aghaune Mains</h2>
+            <div className="slider-container">
+              <ImageSlider slides={mains} />
+              <h2 className="picture-text">Aghaune Mains</h2>
+            </div>
 
-          <ImageSlider slides={drinks} />
-          <h2 className="picture-text">Mataune Drinks</h2>
+            <div className="slider-container">
+              <ImageSlider slides={drinks} />
+              <h2 className="picture-text">Mataune Drinks</h2>
+            </div>
+          </div>
 
           <div className="about-footer-container">
             <h1 className="about-footer-title">
