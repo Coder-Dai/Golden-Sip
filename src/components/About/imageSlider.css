@@ -1,0 +1,53 @@
+.slide {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  height: 95%;
+  align-items: center;
+  margin: 0px 0.5rem;
+}
+
+.right-arrow {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.left-arrow {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.slider {
+  height: 100%;
+  padding-bottom: 0px;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media (min-width: 950px) {
+  .slide {
+    height: 180%;
+  }
+
+  .slider {
+    padding-bottom: 140px;
+  }
+}

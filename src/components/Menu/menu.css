@@ -46,7 +46,7 @@
 @media (min-width: 950px) {
   .menu-container {
     margin: auto;
-    width: 60%;
+    width: 600px;
   }
 
   #menu h1 {
