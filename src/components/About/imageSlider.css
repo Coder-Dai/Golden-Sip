@@ -40,6 +40,11 @@
   margin: 0 3px;
   cursor: pointer;
   font-size: 20px;
+  color: #ccc;
+}
+
+.dot-selected-item {
+  color: #000;
 }
 
 @media (min-width: 950px) {

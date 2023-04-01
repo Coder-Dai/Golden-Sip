@@ -44,7 +44,11 @@ const ImageSlider = ({ slides }) => {
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
+            {slideIndex === currentIndex ? (
+              <p className="dot-selected-item">●</p>
+            ) : (
+              <p>●</p>
+            )}
           </div>
         ))}
       </div>
