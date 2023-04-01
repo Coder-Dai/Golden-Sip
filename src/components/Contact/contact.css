@@ -20,6 +20,9 @@
   margin: 30px auto;
   border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .takeout-card h1 {
@@ -27,7 +30,7 @@
 }
 
 .takeout-card p {
-  margin: auto;
+  margin: 0 auto;
   width: 70%;
   font-size: 1.1rem;
 }
@@ -55,6 +58,9 @@
   margin: 30px auto;
   border-radius: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .dinein-card h1 {
@@ -94,6 +100,7 @@
 .details-title {
   padding-top: 30px;
   padding-bottom: 5px;
+  color: #fff;
 }
 
 a {
@@ -109,4 +116,54 @@ a {
 .react-icon-fb {
   height: 1.4rem;
   width: 1.4rem;
+}
+
+
+@media (min-width: 950px) {
+  .contact-container{
+    width: 800px;
+    margin: 1.5rem auto;
+  }
+
+  .cards-container {
+    display: flex;
+    /* padding-left: 170px;
+    padding-right: 170px; */
+  }
+
+  .takeout-card {
+    width: 350px;
+    height: 250px;
+  }
+
+  .dinein-card {
+    width: 350px;
+    height: 250px;
+  }
+
+  .contact-footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 335px;
+  }
+
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .details-title-address {
+    padding-top: 30px;
+  }
+
+  .details-title {
+    padding-top: 30px;
+  }
+
+  .details-title p {
+    padding-bottom: 2rem;
+  }
+
 }
