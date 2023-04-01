@@ -39,7 +39,7 @@ const Menu = ({ isMenuOpen }) => {
                 className="menu-toggle-btn"
                 onClick={() => setIsNormalMenuOpen(!isNormalMenuOpen)}
               >
-                {isNormalMenuOpen ? <p>Banquet</p> : <p>Menu</p>}
+                {isNormalMenuOpen ? "Banquet ": 'Menu'}
               </button>
             </div>
             {isNormalMenuOpen && (
