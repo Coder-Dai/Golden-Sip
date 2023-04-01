@@ -56,7 +56,7 @@ export const Contact = ({ isMenuOpen }) => {
               </div>
               <div className="details-title">
                 <h2>Opening Times</h2>
-                <p>Mon-Sun: 11am-11pm</p>
+                <p className="opening-times">Mon-Sun: 11am-11pm</p>
 
                 <h2>We deliver to:</h2>
                 <p>UB5, UB6, UB7, UB8</p>

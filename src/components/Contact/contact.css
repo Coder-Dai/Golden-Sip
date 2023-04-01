@@ -103,6 +103,10 @@
   color: #fff;
 }
 
+.opening-times {
+  padding-bottom: 2rem;
+}
+
 a {
   color: #ffffff;
   padding: 0.3rem;
@@ -127,8 +131,6 @@ a {
 
   .cards-container {
     display: flex;
-    /* padding-left: 170px;
-    padding-right: 170px; */
   }
 
   .takeout-card {
@@ -165,5 +167,4 @@ a {
   .details-title p {
     padding-bottom: 2rem;
   }
-
 }
