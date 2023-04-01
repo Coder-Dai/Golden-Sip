@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import "./contact.css";
-import { motion }from 'framer-motion'
+import {motion} from 'framer-motion'
 
 export const Contact = ({ isMenuOpen }) => {
   return (
@@ -14,6 +14,8 @@ export const Contact = ({ isMenuOpen }) => {
             <p>
               Order now from{" "}
               <motion.a
+                whileHover={{ scale: 1.2, transition: { duration: 0.3 } }}
+                whileTap={{ scale: 0.9 }}
                 href="https://www.just-eat.co.uk/restaurants-golden-sip-ha2/menu"
                 target="_blank"
                 rel="noreferrer"
