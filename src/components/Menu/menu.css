@@ -20,12 +20,18 @@
   background-color: #aeb66f;
   border-radius: 0.25rem;
   margin-bottom: 0.5rem;
-}
-
-.menu-toggle-btn > p {
+  cursor: pointer;
+  transition: all ease 0.2s;
   font-size: 1.4rem;
   color: white;
 }
+
+.menu-toggle-btn:hover {
+  background-color: transparent;
+  border: 1px solid #aeb66f;
+  color: #aeb66f;
+}
+
 
 .menu-container {
   width: 90%;
