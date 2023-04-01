@@ -20,7 +20,7 @@ export const Contact = ({ isMenuOpen }) => {
                 target="_blank"
                 rel="noreferrer"
               >
-                JustEat.
+                Just Eat.
               </motion.a>
             </p>
           </div>
