@@ -1,22 +1,30 @@
 import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
-import "./contact.css"
+import "./contact.css";
 
 export const Contact = ({ isMenuOpen }) => {
   return (
-    <section id='contact'>
+    <section id="contact">
       {!isMenuOpen && (
         <div className="contact-container">
-          <div className="takeout-card" >
-              
+          <div className="takeout-card">
             <h1>Take out?</h1>
 
-            <h3>Order now from JustEat.</h3>
+            <h3>
+              Order now from{" "}
+              <a
+                href="https://www.just-eat.co.uk/restaurants-golden-sip-ha2/menu"
+                target="_blank"
+                rel="noreferrer"
+              >
+                JustEat.
+              </a>
+            </h3>
           </div>
 
           <div className="dinein-card">
             <h1>Dine in?</h1>
-            <h3>Call now to get booked in under a minute.</h3>
+            <h3><a href='tel:0208 4266 300'>Call now</a> to get booked in under a minute.</h3>
           </div>
 
           <div className="contact-footer-container">
@@ -46,11 +54,19 @@ export const Contact = ({ isMenuOpen }) => {
               <p>UB5, UB6, UB7, UB8</p>
 
               <h2 className="details-title">Follow us on:</h2>
-              <a href="https://www.instagram.com/golden_sip/" target="_blank" rel='noreferrer'>
-                <FaInstagram className='react-icon-ig'/>
+              <a
+                href="https://www.instagram.com/golden_sip/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram className="react-icon-ig" />
               </a>
-              <a  href="https://www.facebook.com/GoldenSipChoolho" target="_blank" rel='noreferrer'>
-                <FaFacebook className='react-icon-fb' />
+              <a
+                href="https://www.facebook.com/GoldenSipChoolho"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaFacebook className="react-icon-fb" />
               </a>
             </div>
           </div>
