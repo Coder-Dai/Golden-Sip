@@ -1,6 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import "./contact.css";
+import { motion }from 'framer-motion'
 
 export const Contact = ({ isMenuOpen }) => {
   return (
@@ -12,13 +13,13 @@ export const Contact = ({ isMenuOpen }) => {
 
             <p>
               Order now from{" "}
-              <a
+              <motion.a
                 href="https://www.just-eat.co.uk/restaurants-golden-sip-ha2/menu"
                 target="_blank"
                 rel="noreferrer"
               >
                 JustEat.
-              </a>
+              </motion.a>
             </p>
           </div>
 
