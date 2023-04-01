@@ -10,7 +10,7 @@ export const Contact = ({ isMenuOpen }) => {
           <div className="takeout-card">
             <h1>Take out?</h1>
 
-            <h3>
+            <p>
               Order now from{" "}
               <a
                 href="https://www.just-eat.co.uk/restaurants-golden-sip-ha2/menu"
@@ -19,12 +19,15 @@ export const Contact = ({ isMenuOpen }) => {
               >
                 JustEat.
               </a>
-            </h3>
+            </p>
           </div>
 
           <div className="dinein-card">
             <h1>Dine in?</h1>
-            <h3><a href='tel:0208 4266 300'>Call now</a> to get booked in under a minute.</h3>
+            <p>
+              <a href="tel:0208 4266 300">Call now</a> to get booked in under a
+              minute.
+            </p>
           </div>
 
           <div className="contact-footer-container">
