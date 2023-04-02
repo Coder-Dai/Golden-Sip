@@ -1,14 +1,43 @@
 [
-  { "name": "Tandoori Roti", "desc": "Plain flatbread" },
-  { "name": "Plain Naan", "desc": "Flat naan bread baked in clay oven." },
-  { "name": "Butter Naan", "desc": "Naan bread topped with butter" },
-  { "name": "Chilli Naan", "desc": "Naan bread topped with chilli." },
-  { "name": "Garlic Naan", "desc": "Naan bread topped with garlic." },
-  { "name": "Tandoori Paratha", "desc": "Butter stuffed flatbread." },
-  { "name": "Keema Naan", "desc": "Naan bread stuffed with mince meat." },
+  { "name": "Tandoori Roti", "desc": "Plain flatbread", "price": "£2.95" },
+  {
+    "name": "Plain Naan",
+    "desc": "Flat naan bread baked in clay oven.",
+    "price": "£2.95"
+  },
+  {
+    "name": "Butter Naan",
+    "desc": "Naan bread topped with butter",
+    "price": "£3.00"
+  },
+  {
+    "name": "Chilli Naan",
+    "desc": "Naan bread topped with chilli.",
+    "price": "£3.50"
+  },
+  {
+    "name": "Garlic Naan",
+    "desc": "Naan bread topped with garlic.",
+    "price": "£3.50"
+  },
+  {
+    "name": "Tandoori Paratha",
+    "desc": "Butter stuffed flatbread.",
+    "price": "£3.50"
+  },
+  {
+    "name": "Keema Naan",
+    "desc": "Naan bread stuffed with mince meat.",
+    "price": "£4.25"
+  },
   {
     "name": "Peshwari Naan",
-    "desc": "Naan stuffed with nuts, coconut and almond powder."
+    "desc": "Naan stuffed with nuts, coconut and almond powder.",
+    "price": "£4.25"
   },
-  { "name": "Cheese Naan", "desc": "Naan bread topped with cheese." }
+  {
+    "name": "Cheese Naan",
+    "desc": "Naan bread topped with cheese.",
+    "price": "£4.95"
+  }
 ]
