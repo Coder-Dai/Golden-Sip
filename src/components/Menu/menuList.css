@@ -43,7 +43,16 @@
   padding: 0.4rem;
 }
 
+.menu-item-top {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu-name {
+  font-size: 1.1rem;
+}
+
+.menu-price {
   font-size: 1.1rem;
 }
 
@@ -69,6 +78,10 @@
 
   .menu-name {
     font-size: 1.5rem;
+  }
+
+  .menu-price {
+    font-size: 1.3rem;
   }
 
   .menu-desc {
