@@ -20,7 +20,10 @@ const MenuList = ({ label, food, info }) => {
           {info ? <p>{info}</p> : null}
             {food.map((item, i) => (
               <div key={i} className="menu-item">
+                <div className="menu-item-top">
                 <p className="menu-name">{item.name}</p>
+                <p className="menu-price">{item.price}</p>
+                </div>
                 <p className="menu-desc">{item.desc}</p>
               </div>
             ))}
