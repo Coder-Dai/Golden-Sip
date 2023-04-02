@@ -27,9 +27,23 @@ p {
   font-size: 1.1rem;
 }
 
+@media (min-width: 650px) {
+  #about {
+    height: 76rem;
+  }
+
+  .about-section-container {
+    margin: 3rem 10rem 0rem 10rem;
+  }
+}
+
 @media (min-width: 950px) {
   #about {
     height: 35rem;
+  }
+
+  .about-section-container {
+    margin: 3rem auto;
   }
 
   .sliders-container {

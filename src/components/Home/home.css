@@ -65,6 +65,16 @@
   }
 }
 
+/* tablet version */
+@media (min-width: 450px) {
+  .title-text {
+    font-size: 3.5rem;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+/* desktop version */
 @media (min-width: 950px) {
   .title-text {
     font-size: 4rem;

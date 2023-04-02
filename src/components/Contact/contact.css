@@ -42,7 +42,7 @@
 }
 
 .takeout-card p a:hover {
-  color:#aeb66f;
+  color: #aeb66f;
   font-size: 1.75rem;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .dinein-card p a:hover {
-  color:#aeb66f;
+  color: #aeb66f;
   font-size: 1.75rem;
 }
 
@@ -122,10 +122,47 @@ a {
   width: 1.4rem;
 }
 
+@media (min-width: 760px) {
+  .contact-container {
+    width: 760px;
+    margin: 1.5rem auto;
+  }
+
+  .cards-container {
+    display: flex;
+  }
+
+  .takeout-card {
+    width: 320px;
+    height: 220px;
+  }
+
+  .dinein-card {
+    width: 320px;
+    height: 220px;
+  }
+
+  .contact-footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 345px;
+  }
+
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .details-title-address {
+    padding-top: 30px;
+  }
+}
 
 @media (min-width: 950px) {
   .contact-container{
-    width: 800px;
+    width: 840px;
     margin: 1.5rem auto;
   }
 
@@ -146,7 +183,7 @@ a {
   .contact-footer-container {
     display: flex;
     flex-direction: column;
-    width: 780px;
+    width: 770px;
     height: 335px;
   }
 
