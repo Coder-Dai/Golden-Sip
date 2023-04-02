@@ -18,12 +18,16 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <HamburgerNav toggleMenu={toggleMenu} />
+      <HamburgerNav
+        toggleMenu={toggleMenu}
+        setIsMenuOpen={setIsMenuOpen}
+        isMenuOpen={isMenuOpen}
+      />
       <HamburgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       <Home isMenuOpen={isMenuOpen} />
       <About isMenuOpen={isMenuOpen} />
       <Menu isMenuOpen={isMenuOpen} />
-      <Contact isMenuOpen={isMenuOpen}/>
+      <Contact isMenuOpen={isMenuOpen} />
       <Footer isMenuOpen={isMenuOpen} />
     </div>
   );
