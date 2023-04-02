@@ -1,52 +1,64 @@
 [
-  { "name": "French Fries", "desc": "Thin and cripsy potatoes chips." },
+  { "name": "French Fries", "desc": "Thin and cripsy potatoes chips.", "price": "£4.50" },
   {
     "name": "Panipuri",
-    "desc": "(Gol Gappe) Puffed wheat crips filled with marinated potatoes and chickpeas served with cumin and tamarind water (8pcs)."
+    "desc": "(Gol Gappe) Puffed wheat crips filled with marinated potatoes and chickpeas served with cumin and tamarind water (8pcs).",
+    "price": "£5.50"
   },
   {
     "name": "Veg Samosa",
-    "desc": "Maida flour shell stuffed with a mixture of mashed boiled potatoes, onions and green peas. Comes 3 pieces in one portion."
+    "desc": "Maida flour shell stuffed with a mixture of mashed boiled potatoes, onions and green peas. Comes 3 pieces in one portion.",
+    "price": "£4.95"
   },
   {
     "name": "Chips Chilli",
-    "desc": "Fries cooked in our special chilli sauce, onion and garlic."
+    "desc": "Fries cooked in our special chilli sauce, onion and garlic.",
+    "price": "£4.95"
   },
-  { "name": "Mogo Plain", "desc": "Lightly spiced deeep fried cassava." },
+  { "name": "Mogo Plain", "desc": "Lightly spiced deeep fried cassava.", "price": "£5.95" },
   {
     "name": "Masala Mogo",
-    "desc": "Deep fried spiced cassava with chosen condiment."
+    "desc": "Deep fried spiced cassava with chosen condiment.",
+    "price": "£6.50"
   },
   {
     "name": "Crispy Bhajia",
-    "desc": "Thin sliced potatoes, lightly battered with spices. Deep fried and served with chutney."
+    "desc": "Thin sliced potatoes, lightly battered with spices. Deep fried and served with chutney.",
+    "price": "£6.95"
   },
   {
     "name": "Chilli Garlic Mogo",
-    "desc": "Deep fried spiced cassava cooked with onion garlic and chilli sauce."
+    "desc": "Deep fried spiced cassava cooked with onion garlic and chilli sauce.",
+    "price": "£6.95"
   },
   {
     "name": "Samosa Chat",
-    "desc": "Veg samosa topped with chopped potatoes, fresh onion, chickpeas with yoghurt and tamarind sauce."
+    "desc": "Veg samosa topped with chopped potatoes, fresh onion, chickpeas with yoghurt and tamarind sauce.",
+    "price": "£7.50"
   },
   {
     "name": "Potato \"65\"",
-    "desc": "Battered baby potato cooked with our special 65 sauce mixed with yoghurt."
+    "desc": "Battered baby potato cooked with our special 65 sauce mixed with yoghurt.",
+    "price": "7.95"
   },
   {
     "name": "Chilli Garlic Mushroom",
-    "desc": "Lightly battered mushroom deep fried and cooked with fresh peppers and onions."
+    "desc": "Lightly battered mushroom deep fried and cooked with fresh peppers and onions.",
+    "price": "£7.50"
   },
   {
     "name": "Veg Manchurian",
-    "desc": "Deep fried spiced mixed vegetable balls with special sauce."
+    "desc": "Deep fried spiced mixed vegetable balls with special sauce.",
+    "price": "£7.50"
   },
   {
     "name": "Chilli Paneer",
-    "desc": "Cottage cheese cubes deep fried and tossed in wok with GS Chilli sauce, peppers and onions."
+    "desc": "Cottage cheese cubes deep fried and tossed in wok with GS Chilli sauce, peppers and onions.",
+    "price": "£7.95"
   },
   {
     "name": "Paneer Tikka",
-    "desc": "Chunks of paneer marinated in spices and grilled in a tandoor. It's a vegetarian alternative to chicken tikka."
+    "desc": "Chunks of paneer marinated in spices and grilled in a tandoor. It's a vegetarian alternative to chicken tikka.",
+    "price": "£8.50"
   }
 ]
