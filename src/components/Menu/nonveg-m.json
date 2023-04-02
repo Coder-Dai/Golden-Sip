@@ -1,47 +1,62 @@
 [
   {
     "name": "Butter Chicken",
-    "desc": "Pulled tandoori chicken cooked in a silk smooth sauce of tomatoes, spices, garnished with cream and butter."
+    "desc": "Pulled tandoori chicken cooked in a silk smooth sauce of tomatoes, spices, garnished with cream and butter.",
+    "price": "£9.95"
   },
   {
     "name": "Lamb Chef Special",
-    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy."
+    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy.",
+    "price": "£9.95"
   },
   {
     "name": "Chicken Chef Special",
-    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy."
+    "desc": "Diced Chicken Breast/Lamb marinated in a traditional signature. Nepalese spices & curry leaf. Cooked in a home-style onion gravy.",
+    "price": "£9.50"
   },
   {
     "name": "Chicken Tikka Masala",
-    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices."
+    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices.",
+    "price": "£9.95"
   },
   {
     "name": "Chicken Karahi",
-    "desc": "Tender chicken cooked with capsicum and onions prepared in a Karahi (wok)."
+    "desc": "Tender chicken cooked with capsicum and onions prepared in a Karahi (wok).",
+    "price": "£9.50"
   },
   {
     "name": "Methi Chicken",
-    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices."
+    "desc": "Tender chicken cooked with fenugreek leaves & fresh spices.",
+    "price": "£9.25"
   },
   {
     "name": "Korma Chicken or Lamb",
-    "desc": "Mildly spiced dish with a thick sauce made up of Chicken/Lamb pieces braised in cream, coconut milk and spices."
+    "desc": "Mildly spiced dish with a thick sauce made up of Chicken/Lamb pieces braised in cream, coconut milk and spices.",
+    "price": "£9.25 / £9.95"
   },
   {
     "name": "Kenyan Curry Chicken or Lamb",
-    "desc": "Diced on the bone chicken / lamb cooked in a special Kenyan sauce."
+    "desc": "Diced on the bone chicken / lamb cooked in a special Kenyan sauce.",
+    "price": "£9.95"
   },
   {
     "name": "Lamb Rojan Josh",
-    "desc": "Diced lamb cooked in tomato, onion gravy and spices."
+    "desc": "Diced lamb cooked in tomato, onion gravy and spices.",
+    "price": "£10.95"
   },
   {
     "name": "Lamb Keema Curry",
-    "desc": "Minced lamb cooked in onion, tomato sauce with spices."
+    "desc": "Minced lamb cooked in onion, tomato sauce with spices.",
+    "price": "£9.95"
   },
-  { "name": "Lamb Bhuna", "desc": "Tender lamb cooked in thick spiced gravy." },
+  {
+    "name": "Lamb Bhuna",
+    "desc": "Tender lamb cooked in thick spiced gravy.",
+    "price": "£9.50"
+  },
   {
     "name": "Methi Gosht",
-    "desc": "Tender lamb with fenugreek leaves and spices."
+    "desc": "Tender lamb with fenugreek leaves and spices.",
+    "price": "£9.95"
   }
 ]
