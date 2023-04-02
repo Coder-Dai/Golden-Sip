@@ -1,14 +1,17 @@
 [
   {
     "name": "Aloo Dum",
-    "desc": "(Boiled potatoes cooked in a Nepalese spices)"
+    "desc": "(Boiled potatoes cooked in a Nepalese spices)",
+    "price": "£7.50"
   },
   {
     "name": "Mixed Nepalese Achar",
-    "desc": "(Mixture of carrot, cucumber, green peas and potatoes marinated in Nepalese spices and herbs)"
+    "desc": "(Mixture of carrot, cucumber, green peas and potatoes marinated in Nepalese spices and herbs)",
+    "price": "£6.50"
   },
   {
     "name": "Bhatta Sadeko",
-    "desc": "Deep fried Soya beans mixed with ginger & garlic."
+    "desc": "Deep fried Soya beans mixed with ginger & garlic.",
+    "price": "£6.50"
   }
 ]

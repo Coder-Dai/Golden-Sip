@@ -1,6 +1,12 @@
 [
-    {"name": "Fish Chef Special",
-    "desc": "Fish cooked in special sauce and spices."},
-    {"name": "King Prawn Masala",
-    "desc": "King prawn cooked in spicy masala sauce."}
+  {
+    "name": "Fish Chef Special",
+    "desc": "Fish cooked in special sauce and spices.",
+    "price": "£10.25"
+  },
+  {
+    "name": "King Prawn Masala",
+    "desc": "King prawn cooked in spicy masala sauce.",
+    "price": "£13.95"
+  }
 ]

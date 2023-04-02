@@ -1,10 +1,17 @@
 [
   {
-    "name": "Sekuwa",
-    "desc": "Diced meet marinated with Nepalese spices and cooked in a grill"
+    "name": "Sekuwa Chicken / Lamb",
+    "desc": "Diced meet marinated with Nepalese spices and cooked in a grill",
+    "price": "£8.95"
   },
   {
-    "name": "Choila",
-    "desc": "Grilled diiced sekuwa marinated again with fresh ginger & garlic and choila sauce"
+    "name": "Sekuwa Pork",
+    "desc": "Diced meet marinated with Nepalese spices and cooked in a grill",
+    "price": "£8.25"
+  },
+  {
+    "name": "Choila Chicken / Lamb / Pork",
+    "desc": "Grilled diiced sekuwa marinated again with fresh ginger & garlic and choila sauce",
+    "price": "£8.95"
   }
 ]

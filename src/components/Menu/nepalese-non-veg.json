@@ -1,18 +1,27 @@
 [
   {
     "name": "Lamb Sukuti",
-    "desc": "Sliced lamb marinated, deep fried then cooked with onion & garlic."
+    "desc": "Sliced lamb marinated, deep fried then cooked with onion & garlic.",
+    "price": "£10.95"
+  },
+  {
+    "name": "Beef Sukuti",
+    "desc": "Sliced beef marinated, deep fried then cooked with onion & garlic.",
+    "price": "£12.50"
   },
   {
     "name": "Bhutan",
-    "desc": "boiled mutton stomach stir fried."
+    "desc": "boiled mutton stomach stir fried.",
+    "price": "£6.95"
   },
   {
     "name": "Pork Chilli",
-    "desc": "Deep fried pork belly stir fried with peppers, onion & chili sauce."
+    "desc": "Deep fried pork belly stir fried with peppers, onion & chili sauce.",
+    "price": "£8.95"
   },
   {
     "name": "Kukkhura ko Pangra",
-    "desc": "Chicken Gizzard, cleaned boiled and cut into bite size pieces, cooked in our chefs style."
+    "desc": "Chicken Gizzard, cleaned boiled and cut into bite size pieces, cooked in our chefs style.",
+    "price": "£7.35"
   }
 ]

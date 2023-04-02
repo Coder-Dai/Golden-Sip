@@ -1,30 +1,77 @@
 [
   {
-    "name": "Steam Momo",
-    "desc": "Nepali style dumplings. Minced meat with garnish covered in a bun. Served with special Nepali tomato achaar (sauce)."
+    "name": "Steam Momo Chicken / Pork / Lamb",
+    "desc": "Nepali style dumplings. Minced meat with garnish covered in a bun. Served with special Nepali tomato achaar (sauce).",
+    "price": "£8.50"
   },
   {
-    "name": "Jhol Momo",
-    "desc": "Nepali style dumplings served dipped in spicy soup"
+    "name": "Steam Momo Veg",
+    "desc": "Nepali style dumplings. Minced meat with garnish covered in a bun. Served with special Nepali tomato achaar (sauce).",
+    "price": "£7.75"
+  },
+  {
+    "name": "Jhol Momo Chicken",
+    "desc": "Nepali style dumplings served dipped in spicy soup",
+    "price": "£8.95"
+  },
+  {
+    "name": "Jhol Momo Pork / Lamb",
+    "desc": "Nepali style dumplings served dipped in spicy soup",
+    "price": "£8.50"
+  },
+  {
+    "name": "Jhol Momo Veg",
+    "desc": "Nepali style dumplings served dipped in spicy soup",
+    "price": "£8.25"
   },
   {
     "name": "Chilli Momo",
-    "desc": "Nepali style dumplings covered in spicy chilli sauce"
+    "desc": "Nepali style dumplings covered in spicy chilli sauce",
+    "price": "£8.50"
   },
   {
     "name": "Kothay Momo",
-    "desc": "Nepali style dumplings lightly fried in a pan"
+    "desc": "Nepali style dumplings lightly fried in a pan",
+    "price": "£8.50"
   },
   {
     "name": "Sadeko Momo",
-    "desc": "Nepali style dumplings mixed with onions, chillies, cucumber, tomatoes garnished with corriander and lemon "
+    "desc": "Nepali style dumplings mixed with onions, chillies, cucumber, tomatoes garnished with corriander and lemon ",
+    "price": "£9.25"
   },
   {
-    "name": "Chowmein",
-    "desc": "Fried noodles served with meat and vegetables"
+    "name": "Chowmein Chicken / Lamb",
+    "desc": "Fried noodles served with meat and vegetables",
+    "price": "£8.50"
   },
   {
-    "name": "Thukpa",
-    "desc": "Noodles served with a bowl of warm soup."
+    "name": "Chowmein Pork",
+    "desc": "Fried noodles served with meat and vegetables",
+    "price": "£8.25"
+  },
+  {
+    "name": "Chowmein Veg",
+    "desc": "Fried noodles served with meat and vegetables",
+    "price": "£8.25"
+  },
+  {
+    "name": "Chowmein Mixed",
+    "desc": "Fried noodles served with meat and vegetables",
+    "price": "£9.25"
+  },
+  {
+    "name": "Thukpa Chicken",
+    "desc": "Noodles served with a bowl of warm soup.",
+    "price": "£8.25"
+  },
+  {
+    "name": "Thukpa Lamb / Pork / Veg",
+    "desc": "Noodles served with a bowl of warm soup.",
+    "price": "£8.50"
+  },
+  {
+    "name": "Thukpa Chicken Mixed",
+    "desc": "Noodles served with a bowl of warm soup.",
+    "price": "£9.50"
   }
 ]

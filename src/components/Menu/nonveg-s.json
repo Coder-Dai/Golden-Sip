@@ -1,46 +1,57 @@
 [
   {
     "name": "Meat Samosa",
-    "desc": "Crisp deep fried savory pastry pyraminds stuffed with spiced lamb."
+    "desc": "Crisp deep fried savory pastry pyraminds stuffed with spiced lamb.",
+    "price": "£4.50"
   },
   {
-    "name": "Tandoori Chicken",
-    "desc": "Baby chicken marinated in yoghurt & special spices & grilled in clay."
+    "name": "Tandoori Chicken Half/Full",
+    "desc": "Baby chicken marinated in yoghurt & special spices & grilled in clay.",
+    "price": "£8.50 / £15.25"
   },
   {
     "name": "Sheekh Kebab",
-    "desc": "Lamb mince blended with ginger, garlic, onion, capsicum and spices"
+    "desc": "Lamb mince blended with ginger, garlic, onion, capsicum and spices",
+    "price": "£7.50"
   },
   {
     "name": "Chicken Tikka",
-    "desc": "Diced chicken breast marinated with yoghurt, ginger, garlic & hot Indian Spices, then cooked in a clay oven."
+    "desc": "Diced chicken breast marinated with yoghurt, ginger, garlic & hot Indian Spices, then cooked in a clay oven.",
+    "price": "£8.95"
   },
   {
     "name": "Chicken Lolypop",
-    "desc": "Popular Indian Chinese cuisine. Chicken lollipop is essentially a Frenched chicken winglet, where in the meat is cut loose from the bone end and pushed down creating a lollipop appearance."
+    "desc": "Popular Indian Chinese cuisine. Chicken lollipop is essentially a Frenched chicken winglet, where in the meat is cut loose from the bone end and pushed down creating a lollipop appearance.",
+    "price": "£8.50"
   },
   {
     "name": "Chatpata Pop",
-    "desc": "Chicken breast marinated in spices and cut into small pieces."
+    "desc": "Chicken breast marinated in spices and cut into small pieces.",
+    "price": "£9.25"
   },
   {
     "name": "Chicken Chilli",
-    "desc": "Marinated battered chicken chunks fried & cooked with peppers & chilli."
+    "desc": "Marinated battered chicken chunks fried & cooked with peppers & chilli.",
+    "price": "£7.95"
   },
   {
     "name": "Tandoori Chicken Wings",
-    "desc": "Chicken wings marinated with spices & yoghurt and raosted in clay oven. (8pcs in a portion)"
+    "desc": "Chicken wings marinated with spices & yoghurt and raosted in clay oven. (8pcs in a portion)",
+    "price": "£7.95"
   },
   {
     "name": "Lamb Chops",
-    "desc": "Marinated in our secret sauce, grilled in day-oven."
+    "desc": "Marinated in our secret sauce, grilled in day-oven.",
+    "price": "£9.25"
   },
   {
     "name": "Juicy Lamb Chilli",
-    "desc": "Lamb cubes marinated with secret sauce. Cooked in clay oven and rossed in the wok with peppers & onions. (Tender lamb with capsicum, onion and chilli sauce)"
+    "desc": "Lamb cubes marinated with secret sauce. Cooked in clay oven and rossed in the wok with peppers & onions. (Tender lamb with capsicum, onion and chilli sauce)",
+    "price": "£9.25"
   },
   {
     "name": "Mixed Grill",
-    "desc": "Chicken Tikka, Sheekh Kebab, Spring Lamb Chops and Chicken Wings. Combination of our succulent grills, 3pc each."
+    "desc": "Chicken Tikka, Sheekh Kebab, Spring Lamb Chops and Chicken Wings. Combination of our succulent grills, 3pc each.",
+    "price": "£15.95"
   }
 ]

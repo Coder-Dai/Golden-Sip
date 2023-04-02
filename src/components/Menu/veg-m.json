@@ -1,24 +1,57 @@
 [
-    {"name": "Aloo Gobi",
-    "desc": "Delicious cauliflower and potatoes cooked in our special onion sauce and garnished with fresh garlic & herbs."},
-    {"name": "Bombay Aloo",
-    "desc": "Chunks of potatoes cooked with onion, tomato sauce & butter to velvet the texture.Saag paneer Curd cheese and fresh spinach puree cooked in a light creamy tomato sauce with butter texture."},
-    {"name": "Chana Masala",
-    "desc": "Boiled chickpeas with tomato sauce and spices."},
-    {"name": "Dalmakhani",
-    "desc": "Black lentils and kidney beans cooked together with soft butter and cream taste."},
-    {"name": "Mushroom Bhuna",
-    "desc": "Mushroom cooked in onion, tomato gravy with fresh spices."},
-    {"name": "Paneer Jalfrazi",
-    "desc": "Curd cheese pieces cooked with onion, peppers and Jalfrazi sauce."},
-    {"name": "Bhindi Bhaji",
-    "desc": "Fresh okra fried and cooked with diced tomatoes,onions and aromatic spices."},
-    {"name": "Tadka Daal",
-    "desc": "Mixed lentils cooked with spices, garnished with cumin, chopped garlic and green chilli."},
-    {"name": "Mix Veg Jalfrazi",
-    "desc": "Mixed vegetables cooked with fresh tomatoes green peppers and spices in a precisely spiced gravy"},
-    {"name": "Paneer Tikka Masala",
-    "desc": "Grilled paneer cooked in masala sauce."},
-    {"name": "Paneer Makhani",
-    "desc": "Tandoori roasted curd cheese cooked with tomato garnished with a dash of cream and butter."}
+  {
+    "name": "Aloo Gobi",
+    "desc": "Delicious cauliflower and potatoes cooked in our special onion sauce and garnished with fresh garlic & herbs.",
+    "price": "£7.95"
+  },
+  {
+    "name": "Bombay Aloo",
+    "desc": "Chunks of potatoes cooked with onion, tomato sauce & butter to velvet the texture.Saag paneer Curd cheese and fresh spinach puree cooked in a light creamy tomato sauce with butter texture.",
+    "price": "£7.95"
+  },
+  {
+    "name": "Chana Masala",
+    "desc": "Boiled chickpeas with tomato sauce and spices.",
+    "price": "£7.95"
+  },
+  {
+    "name": "Dalmakhani",
+    "desc": "Black lentils and kidney beans cooked together with soft butter and cream taste.",
+    "price": "£8.25"
+  },
+  {
+    "name": "Mushroom Bhuna",
+    "desc": "Mushroom cooked in onion, tomato gravy with fresh spices.",
+    "price": "£8.25"
+  },
+  {
+    "name": "Paneer Jalfrazi",
+    "desc": "Curd cheese pieces cooked with onion, peppers and Jalfrazi sauce.",
+    "price": "£8.25"
+  },
+  {
+    "name": "Bhindi Bhaji",
+    "desc": "Fresh okra fried and cooked with diced tomatoes,onions and aromatic spices.",
+    "price": "£7.95"
+  },
+  {
+    "name": "Tadka Daal",
+    "desc": "Mixed lentils cooked with spices, garnished with cumin, chopped garlic and green chilli.",
+    "price": "£7.95"
+  },
+  {
+    "name": "Mix Veg Jalfrazi",
+    "desc": "Mixed vegetables cooked with fresh tomatoes green peppers and spices in a precisely spiced gravy",
+    "price": "£7.95"
+  },
+  {
+    "name": "Paneer Tikka Masala",
+    "desc": "Grilled paneer cooked in masala sauce.",
+    "price": "£8.95"
+  },
+  {
+    "name": "Paneer Makhani",
+    "desc": "Tandoori roasted curd cheese cooked with tomato garnished with a dash of cream and butter.",
+    "price": "£8.95"
+  }
 ]
