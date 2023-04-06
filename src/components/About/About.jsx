@@ -64,7 +64,9 @@ export const About = ({ isMenuOpen }) => {
               Serving Himalayan cuisine since 1990
             </h1>
             <p className="about-footer-body">
-            Indulge in the delicious flavours of Nepal with our authentic cuisine, served in a warm and welcoming atmosphere. Our attentive staff will make your experience truly special, whether you're dining in, taking out, or booking our catering services for your next event. <br/> Conveniently located in South-Harrow, we're easily accessible from all parts of the city. Come visit us and discover your new favourite restaurant!
+            Indulge in the delicious flavours of Nepal with our authentic cuisine, served in a warm and welcoming atmosphere.</p>
+            <p className="about-footer-body2">Our attentive staff will make your experience truly special, whether you're dining in, taking out, or booking our catering services for your next event. </p>
+            <p className="about-footer-body3">Conveniently located in South-Harrow, we're easily accessible from all parts of the city. Come visit us and discover your new favourite restaurant!
             </p>
             <br />
           </div>
