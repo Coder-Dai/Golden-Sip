@@ -50,9 +50,10 @@ export const Contact = ({ isMenuOpen }) => {
 
               <div className="details-container">
                 <h2 className="details-title-address">Address</h2>
-                <p>496-500 Northolt Rd, Harrow</p>
+                <p>496-500 Northolt Rd,</p>
+                <p>Harrow</p>
                 <p>HA2 8HA</p>
-                <p>Contact: 0208 4266 300</p>
+                <p>0208 4266 300</p>
               </div>
               <div className="details-title">
                 <h2>Opening Times</h2>

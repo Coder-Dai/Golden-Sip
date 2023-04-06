@@ -1,6 +1,6 @@
 .contact-footer-container {
   width: 300px;
-  height: 610px;
+  height: 640px;
   background-color: #aeb66f;
   padding: 25px;
   margin: 30px auto;
@@ -92,6 +92,10 @@
   text-align: center;
 }
 
+.details-container p {
+  margin-bottom: 0.2rem;
+}
+
 .details-title-address {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -101,6 +105,10 @@
   padding-top: 30px;
   padding-bottom: 5px;
   color: #fff;
+}
+
+.details-title p {
+  margin-top: 0.2rem;
 }
 
 .opening-times {
@@ -204,5 +212,13 @@ a {
 
   .details-title p {
     padding-bottom: 2rem;
+  }
+
+  .details-container p {
+    margin-bottom: 0.4rem;
+  }
+
+  .details-title p {
+    margin-top: 0.4rem;
   }
 }
