@@ -10,6 +10,10 @@
   font-family: "Jura", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   scroll-margin-top: 75px;
 }
